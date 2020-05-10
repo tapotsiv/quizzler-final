@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'quiz_brain.dart';
 
-QuizBrain quizBrain = QuizBrain();
-
 void main() => runApp(Quizzler());
 
 class Quizzler extends StatelessWidget {
@@ -22,6 +20,8 @@ class Quizzler extends StatelessWidget {
     );
   }
 }
+
+QuizBrain quizBrain = QuizBrain();
 
 class QuizPage extends StatefulWidget {
   @override
